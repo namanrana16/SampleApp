@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynav"
+    app:startDestination="@id/idFragment">
+
+    <fragment
+        android:id="@+id/idFragment"
+        android:name="com.example.sampleapp.idFragment"
+        android:label="fragment_id2"
+        tools:layout="@layout/fragment_id" />
+    <fragment
+        android:id="@+id/timetableFragment"
+        android:name="com.example.sampleapp.timetableFragment"
+        android:label="fragment_timetable2"
+        tools:layout="@layout/fragment_timetable" />
+    <fragment
+        android:id="@+id/attendanceFragment"
+        android:name="com.example.sampleapp.attendanceFragment"
+        android:label="fragment_attendance2"
+        tools:layout="@layout/fragment_attendance" />
+    <fragment
+        android:id="@+id/expenseFragment"
+        android:name="com.example.sampleapp.expenseFragment"
+        android:label="fragment_expense2"
+        tools:layout="@layout/fragment_expense" />
+</navigation>
